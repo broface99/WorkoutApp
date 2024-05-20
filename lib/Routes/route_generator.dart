@@ -6,6 +6,8 @@ import 'package:workoutapp/Pages/signup_page.dart';
 import 'package:workoutapp/Pages/login_page.dart';
 import 'package:workoutapp/Pages/home_page.dart';
 import 'package:workoutapp/Pages/notification_page.dart';
+import 'package:workoutapp/Pages/profile_page.dart';
+import 'package:workoutapp/random_widgets/nav_bar.dart';
 class RouteGenerator {
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -22,6 +24,12 @@ class RouteGenerator {
           return MaterialPageRoute(builder: (_) => HomeScreen());
       case '/notification':
           return MaterialPageRoute(builder: (_) => NotificationScreen());
+      case '/profile':
+          return MaterialPageRoute(builder: (_) => ProfileScreen());
+      case '/nav':
+          return MaterialPageRoute(builder: (_) => MyNavBar());
+      
+      
 
 
 

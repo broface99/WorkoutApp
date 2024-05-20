@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image_picker: ^0.8.4+1
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +26,9 @@ flutter:
     - assets/images/facebook.png
     - assets/images/user.png
     - assets/images/workout1.png
+    - assets/images/goal.png
+    - assets/images/calendar.png
+    - assets/images/height.png
+    - assets/images/scale.png
+    - assets/images/notification.png
+    - assets/images/default_user.png

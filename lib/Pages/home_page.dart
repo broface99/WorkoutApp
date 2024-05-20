@@ -18,12 +18,13 @@ class HomeScreen extends StatelessWidget {
 
               ElevatedButton(
                onPressed: (){
-                  Navigator.pushNamed(context, '/notification');
+                  Navigator.pushNamed(context, '/nav');
                 },
-                 child: Text('Notification'))
+                 child: Text('profile'))
             ],
           ),
         ),
+        
       ),
     );
   }

@@ -215,18 +215,15 @@ class NotificationScreen extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 15,),
-              Container(
-                width: double.infinity,
-                height: 1,
-                color: Colors.white,
-              ),
-              SizedBox(height: 20,),
+              
+
 
 
             ],
           ),
         ),
       ),
+      
     );
   }
 }
